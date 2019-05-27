@@ -1,5 +1,7 @@
 # Install Jenkins on AWS EC2
-Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, Mac OS X and other Unix-like operating systems. As an extensible automation server, Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.
+Jenkins is a self-contained Java-based program, ready to run out-of-the-box, with packages for Windows, 
+Mac OS X and other Unix-like operating systems. As an extensible automation server,
+ Jenkins can be used as a simple CI server or turned into the continuous delivery hub for any project.
 
 ### Follow this article in **[Youtube](https://youtu.be/M32O4Yv0ANc)**
 
@@ -11,14 +13,12 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
 
 ## Install Java
 We will be using open java for our demo, Get latest version from http://openjdk.java.net/install/
-```sh
 yum install java-1.8*
 #yum -y install java-1.8.0-openjdk
-```
+
 
 ### Confirm Java Version
 Lets install java and set the java home
-```sh
 java -version
 find /usr/lib/jvm/java-1.8* | head -n 3
 #JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
