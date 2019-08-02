@@ -1,0 +1,5 @@
+VS_Enterprize.exe --layout "D:VS2017 --lang en-us
+
+cd C:\Window\System32\
+\window\system32>cd..
+window>d:
